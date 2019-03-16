@@ -11,6 +11,9 @@ namespace ApiSimulacionExamen
         {
             // Web API configuration and services
 
+            //AGREGO
+            config.Formatters.Remove(config.Formatters.XmlFormatter);
+
             // Web API routes
             config.MapHttpAttributeRoutes();
 
